@@ -1,0 +1,7 @@
+script: echo "Hello Travis"
+deploy:
+  provider: pages
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+
